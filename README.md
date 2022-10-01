@@ -1,5 +1,5 @@
 # ntp-refid-ipv6
-Example code to create an NTP refid from an IPv6 address
+Example code to create an NTP refid from an IPv6 address.
 RFC5905 describes NTPv4 and how to calculate the refid for an NTP server.
 As there are only 32 bits available for the NTP refid, the IPv6 address will
 not fit. Hence the workaround of getting the md5 of the IPv6 address and using the first 4 bytes of the md5 for the refid. 
