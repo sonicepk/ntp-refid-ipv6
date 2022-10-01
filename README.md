@@ -8,7 +8,7 @@ not fit. Hence the workaround of getting the md5 of the IPv6 address and using t
 ntp1-pw.heanet.ie has address 193.1.8.106
 ntp1-pw.heanet.ie has IPv6 address **2001:770:101:2::2**
 
-### chronyc tracking
+### chronyc tracking for E8B9A649
 ```
 Reference ID    : E8B9A649 (ntp1-pw.heanet.ie)
 Stratum         : 2
@@ -24,7 +24,7 @@ Root dispersion : 0.000645751 seconds
 Update interval : 1040.8 seconds
 Leap status     : Normal
 ```
-###example output
+### example output of md5 of 2001:770:101:2::2 = E8B9A649
 ```
 $ gcc ntp-refid-ipv6.c -l crypto -o ntp-refid-ipv6
 $ ./ntp-refid-ipv6 2001:770:101:2::2
