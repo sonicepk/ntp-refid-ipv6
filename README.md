@@ -10,7 +10,7 @@ ntp1-pw.heanet.ie has IPv6 address **2001:770:101:2::2**
 
 ### chronyc tracking
 ```
-Reference ID    : **E8B9A649** (ntp1-pw.heanet.ie)
+Reference ID    : E8B9A649 (ntp1-pw.heanet.ie)
 Stratum         : 2
 Ref time (UTC)  : Sat Oct 01 17:11:42 2022
 System time     : 0.000000724 seconds fast of NTP time
@@ -27,6 +27,6 @@ Leap status     : Normal
 ###example output
 ```
 $ gcc ntp-refid-ipv6.c -l crypto -o ntp-refid-ipv6
-$ ./ntp-refid-ipv6 **2001:770:101:2::2**
-First 4 bytes of the MD5 of (2001:770:101:2::2) = ntp refid = **e8b9a649**
+$ ./ntp-refid-ipv6 2001:770:101:2::2
+First 4 bytes of the MD5 of (2001:770:101:2::2) = ntp refid = e8b9a649
 ```
